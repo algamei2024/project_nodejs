@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+</head>
+<body>
+    <div id="products">
+
+    </div>
+    <div>
+        <button id="insert">add new Product</button>
+    </div>
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"></script>
+<script>
+    $(document).ready(function(){
+        //=================
+        $.get('http://localhost:3000/getProducts',(data)=>{
+            $('#products').html(data);
+        });
+        //=================
+        $('#insert').on('click',function(){
+            location.replace('http://localhost:3000/add');
+        });
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+this under we named design principles
+يعني مبادى نطبقها واحنا شغالين في الكود
+طريقة معيار لعمل الكود
+- S : single-responsibility principle => عندما انت تعرف داله او كلاس هذي الداله او الكلاس له عمل واحد فقط مش تعمل داله تعمل فيها ادخال بيانات حذف تعديل لا فقط عمل واحد
+- O : Open-closed principle => 
+- L : Liskov substitution principle => 
+- E : Interface segregation principle =>
+- D : Dependency inversion principle => 
+
+ لتطبيق هذه البرنسبلز هذي اللي فوق نحتاج نطبق حاجه اسمها ديزاين بترن
+
+
+ #architectural pattern 
+ هي كيف تقسم المشروع حقك على سبيل المثال التالي
+ - mvc
